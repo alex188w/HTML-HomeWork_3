@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header__logos {  
+    padding-top: 45px;     
+    padding-left: 375px;
+    float: left;
+}
+
+.header__menu {
+    padding-top: 55px;
+    padding-left: 860px;   
+       
+}
+
+.top__info {
+    margin-top: 148px;   
+    margin-left: 373px;
+    float: left;
+}
+
+.text {
+    margin-top: 17px;    
+}
+
+.top__buttons {
+    margin-top: 52px;
+    margin-left: 37px; 
+    /* 410-373=37 */
+    padding-bottom: 119;
+}
+
+.top__image {   
+    margin-top: 182.71px;
+    margin-left: 935.94px;    
+}
+
+.logos {
+    padding-top: 97px;
+    padding-bottom: 96px;
+    padding-left: 345px;
+}
+
+img {
+    margin-right: 48px;
+  }
