@@ -1,48 +1,119 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-.header__logos {  
-    padding-top: 45px;     
+.contaiuner {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.header__link1,
+.header__link2 {
+    font-size: 14px;
+    font-family: Gilroy-SemiBold;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 51px 20px;
+    text-decoration: none;
+}
+
+.header__link1 {
+    color: #F25822;
+}
+
+.header__link2 {
+    color: #000000;
+}
+
+.haeder-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logos {
+    padding-top: 45px;
     padding-left: 375px;
-    float: left;
+    padding-right: 500px;
+
 }
 
-.header__menu {
-    padding-top: 55px;
-    padding-left: 860px;   
-       
+.header-flex {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 84px;
 }
 
-.top__info {
-    margin-top: 148px;   
+.title {
+    color: #000;
+    font-size: 60px;
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 17px;
+}
+
+.text1,
+.text2 {
+    color: #888;
+    font-size: 20px;
+    font-family: Gilroy-Medium;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.text2 {
+    margin-bottom: 37px;
+}
+
+.button1 {
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    font-size: 15px;
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 2px;
+    margin-right: 72px;
+}
+
+.button2 {
+    color: #888;
+    font-size: 20px;
+    font-family: Gilroy-Medium;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top-flex {
+    display: flex;
+    justify-content: flex-start;
     margin-left: 373px;
-    float: left;
+    margin-bottom: 178px;
 }
 
-.text {
-    margin-top: 17px;    
-}
-
-.top__buttons {
-    margin-top: 52px;
-    margin-left: 37px; 
-    /* 410-373=37 */
-    padding-bottom: 119;
-}
-
-.top__image {   
-    margin-top: 182.71px;
-    margin-left: 935.94px;    
+.top-left {
+    margin-right: 43px;
 }
 
 .logos {
-    padding-top: 97px;
-    padding-bottom: 96px;
+    padding-right: 375px;
     padding-left: 345px;
 }
 
-img {
-    margin-right: 48px;
-  }
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
